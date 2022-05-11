@@ -1,0 +1,19 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.btn-cta {
+    padding-top: 1rem;
+    padding-right: calc(1.3rem + 0.6vw);
+    padding-bottom: 1rem;
+    padding-left: calc(1.3rem + 0.6vw);
+    border-radius: 0.625rem;
+    background-color: #1e293b;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-cta:hover {
+    background-color: #cd921e;
+}
