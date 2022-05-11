@@ -3,7 +3,9 @@
 
 @section('container')
 
-  <div class="container">
+  <div class="container mt-5">
+    <h1 class="fw-bold mb-3">Our Products</h1>
+
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 g-md-4">
       @foreach ($shoes as $shoe)
         <div class="col">

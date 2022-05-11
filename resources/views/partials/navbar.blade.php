@@ -10,13 +10,13 @@
           <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ Request::is('/profile') ? 'active' : '' }}" href="/profile">Profile</a>
+          <a class="nav-link {{ Request::is('profile') ? 'active' : '' }}" href="/profile">Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ Request::is('/products') ? 'active' : '' }}" href="/products">Products</a>
+          <a class="nav-link {{ Request::is('products') ? 'active' : '' }}" href="/products">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ Request::is('/contact') ? 'active' : '' }}" href="/contact">Contact</a>
+          <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="/contact">Contact</a>
         </li>
       </ul>
     </div>
