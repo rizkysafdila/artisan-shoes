@@ -1,19 +1,18 @@
 @extends('layouts.main')
-@section('title', 'Home')
+@section('title', 'Profile')
 
 @section('container')
 
-  <div class="container">
-    <div class="card mb-3" style="max-width: 540px;">
+  <div class="container mt-5 d-flex justify-content-center">
+    <div class="card mb-3" style="max-width: 750px">
       <div class="row g-0">
-        <div class="col-md-4">
-          <img src="..." class="img-fluid rounded-start" alt="...">
+        <div class="col">
+          <img src="https://source.unsplash.com/300x200/?shoes" class="img-fluid rounded-start" alt="...">
         </div>
-        <div class="col-md-8">
+        <div class="col">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">{{ $name }}</h5>
+            <p class="card-text">{{ $desc }}</p>
           </div>
         </div>
       </div>
